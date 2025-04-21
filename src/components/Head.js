@@ -7,10 +7,10 @@ const Head = () => {
   const [searchQuery, setSearchQuery] = useState("");
 
   const getSearchgSuggestions = async () => {
-    console.log("API CALL with - ", searchQuery);
-    const data = await fetch(YOUTUBE_SEARCH_API + searchQuery);
-    const json = await data.json();
-    console.log("json = ", json[1]);
+    // console.log("API CALL with - ", searchQuery);
+    // const data = await fetch(YOUTUBE_SEARCH_API + searchQuery);
+    // const json = await data.json();
+    // console.log("json = ", json[1]);
     // return json[1];
   };
 
@@ -78,7 +78,7 @@ const Head = () => {
           </button>
         </div>
         {}
-        <div className="fixed bg-white w-[31rem] py-2 px-2 shadow-lg rounded-lg border border-gray-100">
+        {/* <div className="fixed bg-white w-[31rem] py-2 px-2 shadow-lg rounded-lg border border-gray-100">
           <ul>
             <li className="py-2 px-2 shadow-sm hover:bg-gray-100">🔍 iphone</li>
             <li className="py-2 px-2 shadow-sm hover:bg-gray-100">🔍 iphone</li>
@@ -87,7 +87,7 @@ const Head = () => {
             <li className="py-2 px-2 shadow-sm hover:bg-gray-100">🔍 iphone</li>
             <li className="py-2 px-2 shadow-sm hover:bg-gray-100">🔍 iphone</li>
           </ul>
-        </div>
+        </div> */}
       </div>
 
       <div className="col-span-1">

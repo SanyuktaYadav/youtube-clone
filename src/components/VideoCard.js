@@ -20,7 +20,8 @@ const VideoCard = ({ info }) => {
 
 export const AdVideoCard = ({info}) => {
   return (
-    <div className="p-1 m-1 border border-red-500">
+    // <div className="p-1 m-1 border border-red-500">
+    <div className="p-1 m-1 border">
       <VideoCard info={info}/>
     </div>
   );
